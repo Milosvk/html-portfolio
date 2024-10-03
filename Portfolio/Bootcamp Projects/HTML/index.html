@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <style>
+        html {
+            background-color: #E5D9F2;
+            text-align: center;
+            color: #F5EFFF;
+            
+        }
+
+        h3 {
+            font-family: Helvetica, sans-serif;
+        }
+
+        .HTML {
+            display: flex;
+            background-color: #A594F9;
+            justify-content: center;
+            align-items: center;
+            width: 800px;
+            border-radius: 5%;
+        }
+
+        * {
+            color: #F5EFFF;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .Project {
+            display: flex;
+            background-color: #CDC1FF;
+            width: 400px;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5%;
+        }
+
+        .footer {
+            background-color: #A594F9; 
+        }
+
+        @media (max-width: 1250px) {
+        container {
+        flex-direction: column;
+        height: 100%;
+      }
+    }
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="container">
+    <div class="HTML">
+        <h1>HTML</h1>
+    </div>
+   </div>
+    <hr />
+        <div class="container">
+            <div class="Project">
+                <div>
+                    <h3><a href="./public/Slovakia/index.html">Top 3 place to visit in Slovakia Project</a></h3><br />
+                    <img src="./assets/images/Slovakia.png" alt="Project Top 3 place to visit in Slovakia" height="200">
+                </div>
+            </div>
+            <div class="Project">
+                <div >
+                    <h3><a href="./public/3.4 Birthday Invite Project/index.html">Birthday Invite Project</a></h3><br />
+                    <img src="./assets/images/Birthday.png" alt="Project Birthday Invite" height="200">
+                </div>
+            </div>
+        </div>
+    <hr />
+    <div class="footer">
+        <a href="./public/about.html">About Me</a> 
+    <a href="./public/contact.html">Contact Me</a>
+    </div>
+</body>
+</html>
